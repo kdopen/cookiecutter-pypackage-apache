@@ -1,10 +1,15 @@
-======================
-cookiecutter-pypackage
-======================
+=============================
+cookiecutter-pypackage-apache
+=============================
 
-Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
+Cookiecutter template for a Python package using the Apache 2.0 License. 
 
-* Free software: BSD license
+See https://github.com/audreyr/cookiecutter for the original
+
+Forked from https://github.com/Nekroze/cookiecutter-pypackage
+
+* Free software: BSD license (License applies to this cookie cutter)
+* Stock License: Apache 2.0 (Applies to generated project)
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * Travis-CI_: Ready for Travis Continuous integration testing
 * Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
@@ -34,8 +39,8 @@ Don't worry, you have options:
 Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `audreyr/cookiecutter-pypackage`_: The original pypackage, uses unittest
-for testing and other minor changes.
+* `audreyr/cookiecutter-pypackage`_: The original pypackage, uses unittest for testing and other minor changes.
+* Nekroze/cookiecutter-pypackage_: Added py.test and Wheel support
 
 Fork This
 ~~~~~~~~~
